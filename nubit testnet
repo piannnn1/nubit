@@ -1,0 +1,10 @@
+sudo dpkg-reconfigure tzdata
+sudo apt install git tmux vim ccze curl ufw python3-pip jq tar wget
+aria2 clang pkg-config libssl-dev build-essential -y
+ALLOW FIREWALL
+sudo apt-get update
+sudo apt-get install ufw
+sudo ufw enable
+ufw default deny incomingufw default allow outgoing
+ufw allow sshufw allow http
+ufw allow httpsufw enable
